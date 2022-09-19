@@ -18,6 +18,17 @@ E-mail: <input type="text" name="email"><br>
 <input type="submit">
 </form>
 
+<?php
+function random_Multiplication() {
+    $num1 = rand(10,100);
+    $num2 = rand(10,100);
+    $num3 = $num1 * $num2;
+    
+    print($num1 . "*" . $num2 . "=" . $num3);
+    
+}
+
+random_Multiplication();
 
 </body>
 </html>
