@@ -29,6 +29,7 @@ function random_Multiplication() {
 }
 
 random_Multiplication();
+?>
 
 </body>
 </html>
