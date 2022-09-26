@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
+<?php include 'header.php';?>
 
 <h1>My first PHP page</h1>
 
@@ -31,6 +29,5 @@ function random_Multiplication() {
 random_Multiplication();
 ?>
 
-</body>
-</html>
+<?php include 'footer.php';?>
 

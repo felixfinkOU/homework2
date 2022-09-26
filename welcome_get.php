@@ -1,8 +1,6 @@
-<html>
-<body>
+<?php include 'header.php';?>
 
 Welcome <?php echo $_GET["name"]; ?><br>
 Your email address is: <?php echo $_GET["email"]; ?>
 
-</body>
-</html>
+<?php include 'footer.php';?>
