@@ -1,7 +1,5 @@
 <?php include 'header.php';?>
 
-<h1>My first PHP page</h1>
-
 <p>Using POST:</p>
 <form action="welcome.php" method="post">
 Name: <input type="text" name="name"><br>
